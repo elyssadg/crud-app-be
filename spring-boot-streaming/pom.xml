@@ -17,4 +17,47 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.project</groupId>
+            <artifactId>spring-boot-command</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.project</groupId>
+            <artifactId>spring-boot-command-impl</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.project</groupId>
+            <artifactId>spring-boot-command-model</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.project</groupId>
+            <artifactId>spring-boot-configuration</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.project</groupId>
+            <artifactId>spring-boot-streaming-model</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+        </dependency>
+    </dependencies>
 </project>

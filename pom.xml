@@ -27,7 +27,10 @@
 		<module>spring-boot-command-impl</module>
 		<module>spring-boot-command-model</module>
 		<module>spring-boot-exception</module>
-	</modules>
+        <module>spring-boot-configuration</module>
+        <module>spring-boot-streaming</module>
+        <module>spring-boot-streaming-model</module>
+    </modules>
 
     <properties>
 		<java.version>17</java.version>

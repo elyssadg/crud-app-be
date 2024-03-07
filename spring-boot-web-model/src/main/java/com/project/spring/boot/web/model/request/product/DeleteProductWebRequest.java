@@ -1,4 +1,4 @@
-package com.project.spring.boot.web.model.request;
+package com.project.spring.boot.web.model.request.product;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

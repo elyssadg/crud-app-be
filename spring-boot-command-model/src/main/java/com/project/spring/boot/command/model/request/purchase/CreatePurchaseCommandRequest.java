@@ -1,4 +1,4 @@
-package com.project.spring.boot.command.model.request;
+package com.project.spring.boot.command.model.request.purchase;
 
 import com.project.spring.boot.entity.Product;
 import lombok.AllArgsConstructor;
